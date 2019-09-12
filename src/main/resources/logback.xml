@@ -89,25 +89,6 @@
         </layout>
     </appender>
 
-    <!--监控sql日志输出 -->
-    <logger name="jdbc.sqlonly" level="INFO" additivity="false">
-        <appender-ref ref="STDOUT" />
-    </logger>
-    <logger name="jdbc.resultset" level="ERROR" additivity="false">
-        <appender-ref ref="STDOUT" />
-    </logger>
-    <logger name="jdbc.resultsettable" level="INFO" additivity="false">
-        <appender-ref ref="STDOUT" />
-    </logger>
-    <logger name="jdbc.connection" level="OFF" additivity="false">
-        <appender-ref ref="STDOUT" />
-    </logger>
-    <logger name="jdbc.sqltiming" level="OFF" additivity="false">
-        <appender-ref ref="STDOUT" />
-    </logger>
-    <logger name="jdbc.audit" level="OFF" additivity="false">
-        <appender-ref ref="STDOUT" />
-    </logger>
 
     <!-- 设置日志级别 -->
     <root level="INFO">
@@ -117,4 +98,12 @@
         <appender-ref ref="LOG-ERROR"/>
         <appender-ref ref="STDOUT"/>
     </root>
+
+    <!-- log4jdbc-log4j2 -->
+    <logger name="jdbc.sqlonly"        level="INFO"/>
+    <logger name="jdbc.sqltiming"      level="OFF"/>
+    <logger name="jdbc.audit"          level="OFF"/>
+    <logger name="jdbc.resultset"      level="ERROR"/>
+    <logger name="jdbc.resultsettable" level="INFO"/>
+    <logger name="jdbc.connection"     level="OFF"/>
 </configuration>

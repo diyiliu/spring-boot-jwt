@@ -501,3 +501,521 @@
 [INFO ] [2019-09-12 10:53:51] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [597] - Closing JPA EntityManagerFactory for persistence unit 'default'
 [INFO ] [2019-09-12 10:53:51] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
 [INFO ] [2019-09-12 10:53:51] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
+[INFO ] [2019-09-12 11:25:27] com.diyiliu.jwt.Application [50] - Starting Application on DIYILIU with PID 2816 (E:\Study\Java\spring-boot-jwt\target\classes started by DIYILIU in E:\Study\Java\spring-boot-jwt)
+[INFO ] [2019-09-12 11:25:27] com.diyiliu.jwt.Application [675] - No active profile set, falling back to default profiles: default
+[INFO ] [2019-09-12 11:25:28] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] [2019-09-12 11:25:28] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] - Finished Spring Data repository scanning in 81ms. Found 1 repository interfaces.
+[INFO ] [2019-09-12 11:25:29] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1dc713fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:25:29] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$b674dc36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:25:29] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:25:29] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2f2bff16' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:25:29] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$db497ee8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:25:29] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:25:29] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2019-09-12 11:25:29] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:25:29] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[INFO ] [2019-09-12 11:25:29] org.apache.catalina.core.StandardEngine [173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] [2019-09-12 11:25:29] org.apache.catalina.core.AprLifecycleListener [173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Develop\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app\product\11.1.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Develop\Java\jdk1.8.0_161\bin;E:\Develop\Java\jdk1.8.0_161\jre\bin;d:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Develop\Maven\apache-maven-3.5.0\bin;E:\Develop\Gradle\gradle-5.1\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files\nodejs\;D:\Program Files\TortoiseSVN\bin;C:\Users\DIYILIU\AppData\Local\Microsoft\WindowsApps;%ORACLE_HOME%\bin;C:\Users\DIYILIU\AppData\Roaming\npm;d:\Programs\Microsoft VS Code\bin;.]
+[INFO ] [2019-09-12 11:25:29] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2019-09-12 11:25:29] org.springframework.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 2383 ms
+[INFO ] [2019-09-12 11:25:30] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+[INFO ] [2019-09-12 11:25:30] jdbc.connection [531] - 1. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 1. Connection.new Connection returned 
+[INFO ] [2019-09-12 11:25:30] com.zaxxer.hikari.pool.PoolBase [525] - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 1. Connection.isReadOnly() returned false
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 1. Connection.getAutoCommit() returned true
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 1. Connection.isValid(1) returned true
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 1. Connection.getTransactionIsolation() returned 4
+[INFO ] [2019-09-12 11:25:30] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@5eb5da12
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 1. Connection.clearWarnings() returned 
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@ec7b5de
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 1. Connection.clearWarnings() returned 
+[INFO ] [2019-09-12 11:25:30] jdbc.connection [531] - 2. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 2. Connection.new Connection returned 
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 2. Connection.isReadOnly() returned false
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 2. Connection.getAutoCommit() returned true
+[INFO ] [2019-09-12 11:25:30] jdbc.connection [531] - 3. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 3. Connection.new Connection returned 
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 3. Connection.isReadOnly() returned false
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 3. Connection.getAutoCommit() returned true
+[INFO ] [2019-09-12 11:25:30] jdbc.connection [531] - 4. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 4. Connection.new Connection returned 
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 4. Connection.isReadOnly() returned false
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 4. Connection.getAutoCommit() returned true
+[INFO ] [2019-09-12 11:25:30] jdbc.connection [531] - 5. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 5. Connection.new Connection returned 
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 5. Connection.isReadOnly() returned false
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 5. Connection.getAutoCommit() returned true
+[INFO ] [2019-09-12 11:25:30] org.hibernate.jpa.internal.util.LogHelper [31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] [2019-09-12 11:25:30] jdbc.connection [531] - 6. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 6. Connection.new Connection returned 
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 6. Connection.isReadOnly() returned false
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 6. Connection.getAutoCommit() returned true
+[INFO ] [2019-09-12 11:25:30] jdbc.connection [531] - 7. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 7. Connection.new Connection returned 
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 7. Connection.isReadOnly() returned false
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 7. Connection.getAutoCommit() returned true
+[INFO ] [2019-09-12 11:25:30] jdbc.connection [531] - 8. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 8. Connection.new Connection returned 
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 8. Connection.isReadOnly() returned false
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 8. Connection.getAutoCommit() returned true
+[INFO ] [2019-09-12 11:25:30] jdbc.connection [531] - 9. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 9. Connection.new Connection returned 
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 9. Connection.isReadOnly() returned false
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 9. Connection.getAutoCommit() returned true
+[INFO ] [2019-09-12 11:25:30] jdbc.connection [531] - 10. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 10. Connection.new Connection returned 
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 10. Connection.isReadOnly() returned false
+[INFO ] [2019-09-12 11:25:30] jdbc.audit [162] - 10. Connection.getAutoCommit() returned true
+[INFO ] [2019-09-12 11:25:30] org.hibernate.Version [46] - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] [2019-09-12 11:25:30] org.hibernate.cfg.Environment [213] - HHH000206: hibernate.properties not found
+[INFO ] [2019-09-12 11:25:30] org.hibernate.annotations.common.Version [49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] [2019-09-12 11:25:31] jdbc.audit [162] - 1. Connection.isValid(5) returned true
+[INFO ] [2019-09-12 11:25:31] jdbc.audit [162] - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@1fe8f5e8
+[INFO ] [2019-09-12 11:25:31] org.hibernate.dialect.Dialect [157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] [2019-09-12 11:25:31] jdbc.audit [162] - 1. Connection.clearWarnings() returned 
+[INFO ] [2019-09-12 11:25:32] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 11:25:32] jdbc.audit [162] - 1. Connection.isValid(5) returned true
+[INFO ] [2019-09-12 11:25:32] jdbc.audit [162] - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@186295cc
+[INFO ] [2019-09-12 11:25:32] jdbc.audit [162] - 1. Connection.clearWarnings() returned 
+[INFO ] [2019-09-12 11:25:32] org.springframework.security.web.DefaultSecurityFilterChain [43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b4f1eb, org.springframework.security.web.context.SecurityContextPersistenceFilter@55b45ea1, org.springframework.security.web.header.HeaderWriterFilter@127d2aee, org.springframework.security.web.authentication.logout.LogoutFilter@6068cda1, com.diyiliu.jwt.security.filter.JwtRequestFilter@15ad5acb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45f95ac0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c4c7e51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6247c08c, org.springframework.security.web.session.SessionManagementFilter@b787274, org.springframework.security.web.access.ExceptionTranslationFilter@44a13699, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@18be3205]
+[INFO ] [2019-09-12 11:25:33] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 11:25:33] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:25:33] org.apache.tomcat.util.net.NioSelectorPool [173] - Using a shared selector for servlet write/read
+[INFO ] [2019-09-12 11:25:33] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] [2019-09-12 11:25:33] com.diyiliu.jwt.Application [59] - Started Application in 6.54 seconds (JVM running for 8.341)
+[INFO ] [2019-09-12 11:25:45] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:25:45] org.springframework.web.servlet.DispatcherServlet [524] - Initializing Servlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:25:45] org.springframework.web.servlet.DispatcherServlet [546] - Completed initialization in 21 ms
+[INFO ] [2019-09-12 11:25:45] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [47] - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. Connection.isValid(5) returned true
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. Connection.prepareStatement(select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ from t_user sysuser0_ where sysuser0_.username=?) returned net.sf.log4jdbc.PreparedStatementSpy@9a07495
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.setString(1, "admin") returned 
+[INFO ] [2019-09-12 11:25:45] jdbc.sqltiming [370] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+ {executed in 1 msec}
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.ResultSetSpy@250d6f92
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.getMaxRows() returned 0
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.getQueryTimeout() returned 0
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.close() returned 
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. Connection.prepareStatement(select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ from t_user sysuser0_ where sysuser0_.username=?) returned net.sf.log4jdbc.PreparedStatementSpy@b6aefb
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.setString(1, "admin") returned 
+[INFO ] [2019-09-12 11:25:45] jdbc.sqltiming [370] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+ {executed in 1 msec}
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.ResultSetSpy@3c916c63
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.getMaxRows() returned 0
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.getQueryTimeout() returned 0
+[INFO ] [2019-09-12 11:25:45] jdbc.audit [162] - 1. PreparedStatement.close() returned 
+[INFO ] [2019-09-12 11:25:46] jdbc.audit [162] - 1. Connection.clearWarnings() returned 
+[INFO ] [2019-09-12 11:25:46] jdbc.audit [162] - 1. Connection.clearWarnings() returned 
+[INFO ] [2019-09-12 11:27:26] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 11:27:26] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 11:27:26] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 1. Connection.isClosed() returned false
+[INFO ] [2019-09-12 11:27:26] jdbc.connection [550] - 1. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 1. Connection.close() returned 
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 2. Connection.isClosed() returned false
+[INFO ] [2019-09-12 11:27:26] jdbc.connection [550] - 2. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 2. Connection.close() returned 
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 3. Connection.isClosed() returned false
+[INFO ] [2019-09-12 11:27:26] jdbc.connection [550] - 3. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 3. Connection.close() returned 
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 4. Connection.isClosed() returned false
+[INFO ] [2019-09-12 11:27:26] jdbc.connection [550] - 4. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 4. Connection.close() returned 
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 5. Connection.isClosed() returned false
+[INFO ] [2019-09-12 11:27:26] jdbc.connection [550] - 5. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 5. Connection.close() returned 
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 6. Connection.isClosed() returned false
+[INFO ] [2019-09-12 11:27:26] jdbc.connection [550] - 6. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 6. Connection.close() returned 
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 7. Connection.isClosed() returned false
+[INFO ] [2019-09-12 11:27:26] jdbc.connection [550] - 7. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 7. Connection.close() returned 
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 8. Connection.isClosed() returned false
+[INFO ] [2019-09-12 11:27:26] jdbc.connection [550] - 8. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 8. Connection.close() returned 
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 9. Connection.isClosed() returned false
+[INFO ] [2019-09-12 11:27:26] jdbc.connection [550] - 9. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 9. Connection.close() returned 
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 10. Connection.isClosed() returned false
+[INFO ] [2019-09-12 11:27:26] jdbc.connection [550] - 10. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:27:26] jdbc.audit [162] - 10. Connection.close() returned 
+[INFO ] [2019-09-12 11:27:26] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
+[INFO ] [2019-09-12 11:27:31] com.diyiliu.jwt.Application [50] - Starting Application on DIYILIU with PID 12844 (E:\Study\Java\spring-boot-jwt\target\classes started by DIYILIU in E:\Study\Java\spring-boot-jwt)
+[INFO ] [2019-09-12 11:27:31] com.diyiliu.jwt.Application [675] - No active profile set, falling back to default profiles: default
+[INFO ] [2019-09-12 11:27:32] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] [2019-09-12 11:27:32] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] - Finished Spring Data repository scanning in 93ms. Found 1 repository interfaces.
+[INFO ] [2019-09-12 11:27:33] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$197bc0e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:27:33] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$b229891a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:27:33] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:27:33] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@70972170' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:27:33] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$d6fe2bcc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:27:33] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:27:33] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2019-09-12 11:27:33] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:27:33] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[INFO ] [2019-09-12 11:27:33] org.apache.catalina.core.StandardEngine [173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] [2019-09-12 11:27:33] org.apache.catalina.core.AprLifecycleListener [173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Develop\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app\product\11.1.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Develop\Java\jdk1.8.0_161\bin;E:\Develop\Java\jdk1.8.0_161\jre\bin;d:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Develop\Maven\apache-maven-3.5.0\bin;E:\Develop\Gradle\gradle-5.1\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files\nodejs\;D:\Program Files\TortoiseSVN\bin;C:\Users\DIYILIU\AppData\Local\Microsoft\WindowsApps;%ORACLE_HOME%\bin;C:\Users\DIYILIU\AppData\Roaming\npm;d:\Programs\Microsoft VS Code\bin;.]
+[INFO ] [2019-09-12 11:27:33] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2019-09-12 11:27:33] org.springframework.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 2076 ms
+[INFO ] [2019-09-12 11:27:33] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+[INFO ] [2019-09-12 11:27:34] jdbc.connection [531] - 1. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:27:34] com.zaxxer.hikari.pool.PoolBase [525] - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+[INFO ] [2019-09-12 11:27:34] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+[INFO ] [2019-09-12 11:27:34] org.hibernate.jpa.internal.util.LogHelper [31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] [2019-09-12 11:27:34] jdbc.connection [531] - 2. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:27:34] jdbc.connection [531] - 3. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:27:34] jdbc.connection [531] - 4. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:27:34] jdbc.connection [531] - 5. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:27:34] jdbc.connection [531] - 6. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:27:34] jdbc.connection [531] - 7. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:27:34] jdbc.connection [531] - 8. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:27:34] org.hibernate.Version [46] - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] [2019-09-12 11:27:34] org.hibernate.cfg.Environment [213] - HHH000206: hibernate.properties not found
+[INFO ] [2019-09-12 11:27:34] jdbc.connection [531] - 9. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:27:34] jdbc.connection [531] - 10. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+[INFO ] [2019-09-12 11:27:34] org.hibernate.annotations.common.Version [49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] [2019-09-12 11:27:34] org.hibernate.dialect.Dialect [157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] [2019-09-12 11:27:35] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 11:27:36] org.springframework.security.web.DefaultSecurityFilterChain [43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a20da9f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ff8d39b, org.springframework.security.web.header.HeaderWriterFilter@118e2487, org.springframework.security.web.authentication.logout.LogoutFilter@1acc768, com.diyiliu.jwt.security.filter.JwtRequestFilter@6d6712b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b5c9412, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b0d85bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40c0437f, org.springframework.security.web.session.SessionManagementFilter@10a064bd, org.springframework.security.web.access.ExceptionTranslationFilter@2ccecae2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b5f960a]
+[INFO ] [2019-09-12 11:27:36] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 11:27:36] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:27:36] org.apache.tomcat.util.net.NioSelectorPool [173] - Using a shared selector for servlet write/read
+[INFO ] [2019-09-12 11:27:36] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] [2019-09-12 11:27:36] com.diyiliu.jwt.Application [59] - Started Application in 5.746 seconds (JVM running for 7.711)
+[INFO ] [2019-09-12 11:27:42] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:27:42] org.springframework.web.servlet.DispatcherServlet [524] - Initializing Servlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:27:42] org.springframework.web.servlet.DispatcherServlet [546] - Completed initialization in 16 ms
+[INFO ] [2019-09-12 11:27:42] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [47] - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] [2019-09-12 11:27:42] jdbc.sqltiming [370] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+ {executed in 1 msec}
+[INFO ] [2019-09-12 11:27:42] jdbc.resultset [162] - 1. ResultSet.new ResultSet returned 
+[INFO ] [2019-09-12 11:27:42] jdbc.resultset [162] - 1. ResultSet.next() returned true
+[INFO ] [2019-09-12 11:27:42] jdbc.resultset [162] - 1. ResultSet.getLong(id1_0_) returned 5
+[INFO ] [2019-09-12 11:27:42] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.getString(password2_0_) returned $2a$10$rguctBGmg/6PoIxYLLguI.77LUDACIKtZmesULLNvMENt/pBFLwvu
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.getString(username3_0_) returned admin
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.next() returned false
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.close() returned 
+[INFO ] [2019-09-12 11:27:43] jdbc.sqltiming [370] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+ {executed in 1 msec}
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.new ResultSet returned 
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.next() returned true
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.getLong(id1_0_) returned 5
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.next() returned false
+[INFO ] [2019-09-12 11:27:43] jdbc.resultset [162] - 1. ResultSet.close() returned 
+[INFO ] [2019-09-12 11:28:18] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 11:28:18] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 11:28:18] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+[INFO ] [2019-09-12 11:28:18] jdbc.connection [550] - 1. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:28:18] jdbc.connection [550] - 2. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:28:18] jdbc.connection [550] - 3. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:28:18] jdbc.connection [550] - 4. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:28:18] jdbc.connection [550] - 5. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:28:18] jdbc.connection [550] - 6. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:28:18] jdbc.connection [550] - 7. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:28:18] jdbc.connection [550] - 8. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:28:18] jdbc.connection [550] - 9. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:28:18] jdbc.connection [550] - 10. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:135)
+[INFO ] [2019-09-12 11:28:18] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
+[INFO ] [2019-09-12 11:28:22] com.diyiliu.jwt.Application [50] - Starting Application on DIYILIU with PID 2940 (E:\Study\Java\spring-boot-jwt\target\classes started by DIYILIU in E:\Study\Java\spring-boot-jwt)
+[INFO ] [2019-09-12 11:28:22] com.diyiliu.jwt.Application [675] - No active profile set, falling back to default profiles: default
+[INFO ] [2019-09-12 11:28:24] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] [2019-09-12 11:28:24] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] - Finished Spring Data repository scanning in 73ms. Found 1 repository interfaces.
+[INFO ] [2019-09-12 11:28:24] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c4b87ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:28:24] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$f4f94fe8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:28:24] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:28:24] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2f2bff16' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:28:24] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$19cdf29a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:28:24] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:28:25] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2019-09-12 11:28:25] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:28:25] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[INFO ] [2019-09-12 11:28:25] org.apache.catalina.core.StandardEngine [173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] [2019-09-12 11:28:25] org.apache.catalina.core.AprLifecycleListener [173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Develop\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app\product\11.1.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Develop\Java\jdk1.8.0_161\bin;E:\Develop\Java\jdk1.8.0_161\jre\bin;d:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Develop\Maven\apache-maven-3.5.0\bin;E:\Develop\Gradle\gradle-5.1\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files\nodejs\;D:\Program Files\TortoiseSVN\bin;C:\Users\DIYILIU\AppData\Local\Microsoft\WindowsApps;%ORACLE_HOME%\bin;C:\Users\DIYILIU\AppData\Roaming\npm;d:\Programs\Microsoft VS Code\bin;.]
+[INFO ] [2019-09-12 11:28:25] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2019-09-12 11:28:25] org.springframework.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 2313 ms
+[INFO ] [2019-09-12 11:28:25] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+[INFO ] [2019-09-12 11:28:25] com.zaxxer.hikari.pool.PoolBase [525] - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+[INFO ] [2019-09-12 11:28:25] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+[INFO ] [2019-09-12 11:28:25] org.hibernate.jpa.internal.util.LogHelper [31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] [2019-09-12 11:28:25] org.hibernate.Version [46] - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] [2019-09-12 11:28:25] org.hibernate.cfg.Environment [213] - HHH000206: hibernate.properties not found
+[INFO ] [2019-09-12 11:28:26] org.hibernate.annotations.common.Version [49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] [2019-09-12 11:28:26] org.hibernate.dialect.Dialect [157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] [2019-09-12 11:28:27] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 11:28:27] org.springframework.security.web.DefaultSecurityFilterChain [43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@684a802a, org.springframework.security.web.context.SecurityContextPersistenceFilter@58e5fbe5, org.springframework.security.web.header.HeaderWriterFilter@66456506, org.springframework.security.web.authentication.logout.LogoutFilter@3cc2e3e, com.diyiliu.jwt.security.filter.JwtRequestFilter@432eb882, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b33892a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ab85862, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b5c9412, org.springframework.security.web.session.SessionManagementFilter@54e18a46, org.springframework.security.web.access.ExceptionTranslationFilter@6f430ea8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@113c4ad6]
+[INFO ] [2019-09-12 11:28:27] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 11:28:28] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:28:28] org.apache.tomcat.util.net.NioSelectorPool [173] - Using a shared selector for servlet write/read
+[INFO ] [2019-09-12 11:28:28] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] [2019-09-12 11:28:28] com.diyiliu.jwt.Application [59] - Started Application in 5.962 seconds (JVM running for 7.677)
+[INFO ] [2019-09-12 11:28:35] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:28:35] org.springframework.web.servlet.DispatcherServlet [524] - Initializing Servlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:28:35] org.springframework.web.servlet.DispatcherServlet [546] - Completed initialization in 11 ms
+[INFO ] [2019-09-12 11:28:35] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [47] - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] [2019-09-12 11:28:35] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 11:28:35] jdbc.sqltiming [370] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+ {executed in 1 msec}
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.new ResultSet returned 
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.next() returned true
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.getLong(id1_0_) returned 5
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.getString(password2_0_) returned $2a$10$rguctBGmg/6PoIxYLLguI.77LUDACIKtZmesULLNvMENt/pBFLwvu
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.getString(username3_0_) returned admin
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.next() returned false
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.close() returned 
+[INFO ] [2019-09-12 11:28:35] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 11:28:35] jdbc.sqltiming [370] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+ {executed in 0 msec}
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.new ResultSet returned 
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.next() returned true
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.getLong(id1_0_) returned 5
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.next() returned false
+[INFO ] [2019-09-12 11:28:35] jdbc.resultset [162] - 1. ResultSet.close() returned 
+[INFO ] [2019-09-12 11:29:31] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 11:29:31] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 11:29:31] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+[INFO ] [2019-09-12 11:29:31] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
+[INFO ] [2019-09-12 11:29:36] com.diyiliu.jwt.Application [50] - Starting Application on DIYILIU with PID 12312 (E:\Study\Java\spring-boot-jwt\target\classes started by DIYILIU in E:\Study\Java\spring-boot-jwt)
+[INFO ] [2019-09-12 11:29:36] com.diyiliu.jwt.Application [675] - No active profile set, falling back to default profiles: default
+[INFO ] [2019-09-12 11:29:37] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] [2019-09-12 11:29:37] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] - Finished Spring Data repository scanning in 77ms. Found 1 repository interfaces.
+[INFO ] [2019-09-12 11:29:37] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65d6aed1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:29:37] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$fe84770b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:29:37] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:29:37] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6c15e8c7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:29:37] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$235919bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:29:37] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:29:38] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2019-09-12 11:29:38] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:29:38] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[INFO ] [2019-09-12 11:29:38] org.apache.catalina.core.StandardEngine [173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] [2019-09-12 11:29:38] org.apache.catalina.core.AprLifecycleListener [173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Develop\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app\product\11.1.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Develop\Java\jdk1.8.0_161\bin;E:\Develop\Java\jdk1.8.0_161\jre\bin;d:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Develop\Maven\apache-maven-3.5.0\bin;E:\Develop\Gradle\gradle-5.1\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files\nodejs\;D:\Program Files\TortoiseSVN\bin;C:\Users\DIYILIU\AppData\Local\Microsoft\WindowsApps;%ORACLE_HOME%\bin;C:\Users\DIYILIU\AppData\Roaming\npm;d:\Programs\Microsoft VS Code\bin;.]
+[INFO ] [2019-09-12 11:29:38] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2019-09-12 11:29:38] org.springframework.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 2040 ms
+[INFO ] [2019-09-12 11:29:38] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+[INFO ] [2019-09-12 11:29:38] com.zaxxer.hikari.pool.PoolBase [525] - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+[INFO ] [2019-09-12 11:29:38] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+[INFO ] [2019-09-12 11:29:38] org.hibernate.jpa.internal.util.LogHelper [31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] [2019-09-12 11:29:38] org.hibernate.Version [46] - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] [2019-09-12 11:29:38] org.hibernate.cfg.Environment [213] - HHH000206: hibernate.properties not found
+[INFO ] [2019-09-12 11:29:39] org.hibernate.annotations.common.Version [49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] [2019-09-12 11:29:39] org.hibernate.dialect.Dialect [157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] [2019-09-12 11:29:39] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 11:29:40] org.springframework.security.web.DefaultSecurityFilterChain [43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4535bdc6, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ec5aad, org.springframework.security.web.header.HeaderWriterFilter@24258b54, org.springframework.security.web.authentication.logout.LogoutFilter@19e8fe55, com.diyiliu.jwt.security.filter.JwtRequestFilter@4805069b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e62ca19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ce18cec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23e86863, org.springframework.security.web.session.SessionManagementFilter@780c0, org.springframework.security.web.access.ExceptionTranslationFilter@1c0cf193, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a4b8e25]
+[INFO ] [2019-09-12 11:29:40] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 11:29:41] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:29:41] org.apache.tomcat.util.net.NioSelectorPool [173] - Using a shared selector for servlet write/read
+[INFO ] [2019-09-12 11:29:41] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] [2019-09-12 11:29:41] com.diyiliu.jwt.Application [59] - Started Application in 5.646 seconds (JVM running for 7.39)
+[INFO ] [2019-09-12 11:29:44] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:29:44] org.springframework.web.servlet.DispatcherServlet [524] - Initializing Servlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:29:44] org.springframework.web.servlet.DispatcherServlet [546] - Completed initialization in 11 ms
+[INFO ] [2019-09-12 11:29:44] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [47] - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] [2019-09-12 11:30:31] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 11:30:31] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 11:30:31] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+[INFO ] [2019-09-12 11:30:31] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
+[INFO ] [2019-09-12 11:30:36] com.diyiliu.jwt.Application [50] - Starting Application on DIYILIU with PID 17712 (E:\Study\Java\spring-boot-jwt\target\classes started by DIYILIU in E:\Study\Java\spring-boot-jwt)
+[INFO ] [2019-09-12 11:30:36] com.diyiliu.jwt.Application [675] - No active profile set, falling back to default profiles: default
+[INFO ] [2019-09-12 11:30:37] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] [2019-09-12 11:30:38] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] - Finished Spring Data repository scanning in 94ms. Found 1 repository interfaces.
+[INFO ] [2019-09-12 11:30:38] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef61c34f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:30:38] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$880f8b89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:30:38] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:30:38] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2def7a7a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:30:38] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$ace42e3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:30:38] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:30:38] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2019-09-12 11:30:38] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:30:38] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[INFO ] [2019-09-12 11:30:38] org.apache.catalina.core.StandardEngine [173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] [2019-09-12 11:30:38] org.apache.catalina.core.AprLifecycleListener [173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Develop\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app\product\11.1.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Develop\Java\jdk1.8.0_161\bin;E:\Develop\Java\jdk1.8.0_161\jre\bin;d:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Develop\Maven\apache-maven-3.5.0\bin;E:\Develop\Gradle\gradle-5.1\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files\nodejs\;D:\Program Files\TortoiseSVN\bin;C:\Users\DIYILIU\AppData\Local\Microsoft\WindowsApps;%ORACLE_HOME%\bin;C:\Users\DIYILIU\AppData\Roaming\npm;d:\Programs\Microsoft VS Code\bin;.]
+[INFO ] [2019-09-12 11:30:38] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2019-09-12 11:30:38] org.springframework.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 2005 ms
+[INFO ] [2019-09-12 11:30:39] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+[INFO ] [2019-09-12 11:30:39] com.zaxxer.hikari.pool.PoolBase [525] - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+[INFO ] [2019-09-12 11:30:39] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+[INFO ] [2019-09-12 11:30:39] org.hibernate.jpa.internal.util.LogHelper [31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] [2019-09-12 11:30:39] org.hibernate.Version [46] - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] [2019-09-12 11:30:39] org.hibernate.cfg.Environment [213] - HHH000206: hibernate.properties not found
+[INFO ] [2019-09-12 11:30:39] org.hibernate.annotations.common.Version [49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] [2019-09-12 11:30:39] org.hibernate.dialect.Dialect [157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] [2019-09-12 11:30:40] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 11:30:41] org.springframework.security.web.DefaultSecurityFilterChain [43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f01fb5c, org.springframework.security.web.context.SecurityContextPersistenceFilter@48b09105, org.springframework.security.web.header.HeaderWriterFilter@74a1d60e, org.springframework.security.web.authentication.logout.LogoutFilter@3cacc87, com.diyiliu.jwt.security.filter.JwtRequestFilter@36a1fd20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25110bb9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3aeb267, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75c77add, org.springframework.security.web.session.SessionManagementFilter@5b715ea, org.springframework.security.web.access.ExceptionTranslationFilter@4e671ef, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23954300]
+[INFO ] [2019-09-12 11:30:41] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 11:30:41] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:30:41] org.apache.tomcat.util.net.NioSelectorPool [173] - Using a shared selector for servlet write/read
+[INFO ] [2019-09-12 11:30:41] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] [2019-09-12 11:30:41] com.diyiliu.jwt.Application [59] - Started Application in 5.855 seconds (JVM running for 7.896)
+[INFO ] [2019-09-12 11:30:53] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:30:53] org.springframework.web.servlet.DispatcherServlet [524] - Initializing Servlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:30:53] org.springframework.web.servlet.DispatcherServlet [546] - Completed initialization in 9 ms
+[INFO ] [2019-09-12 11:30:54] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [47] - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] [2019-09-12 11:30:54] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.new ResultSet returned 
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.next() returned true
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.getLong(id1_0_) returned 5
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.getString(password2_0_) returned $2a$10$rguctBGmg/6PoIxYLLguI.77LUDACIKtZmesULLNvMENt/pBFLwvu
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.getString(username3_0_) returned admin
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.next() returned false
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.close() returned 
+[INFO ] [2019-09-12 11:30:54] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.new ResultSet returned 
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.next() returned true
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.getLong(id1_0_) returned 5
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.wasNull() returned false
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.next() returned false
+[INFO ] [2019-09-12 11:30:54] jdbc.resultset [162] - 1. ResultSet.close() returned 
+[INFO ] [2019-09-12 11:31:52] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 11:31:52] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 11:31:52] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+[INFO ] [2019-09-12 11:31:52] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
+[INFO ] [2019-09-12 11:31:57] com.diyiliu.jwt.Application [50] - Starting Application on DIYILIU with PID 16612 (E:\Study\Java\spring-boot-jwt\target\classes started by DIYILIU in E:\Study\Java\spring-boot-jwt)
+[INFO ] [2019-09-12 11:31:57] com.diyiliu.jwt.Application [675] - No active profile set, falling back to default profiles: default
+[INFO ] [2019-09-12 11:31:58] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] [2019-09-12 11:31:58] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] - Finished Spring Data repository scanning in 70ms. Found 1 repository interfaces.
+[INFO ] [2019-09-12 11:31:59] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca4adf84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:31:59] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$62f8a7be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:31:59] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:31:59] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@62db3891' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:31:59] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$87cd4a70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:31:59] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 11:32:00] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2019-09-12 11:32:00] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:32:00] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[INFO ] [2019-09-12 11:32:00] org.apache.catalina.core.StandardEngine [173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] [2019-09-12 11:32:00] org.apache.catalina.core.AprLifecycleListener [173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Develop\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app\product\11.1.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Develop\Java\jdk1.8.0_161\bin;E:\Develop\Java\jdk1.8.0_161\jre\bin;d:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Develop\Maven\apache-maven-3.5.0\bin;E:\Develop\Gradle\gradle-5.1\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files\nodejs\;D:\Program Files\TortoiseSVN\bin;C:\Users\DIYILIU\AppData\Local\Microsoft\WindowsApps;%ORACLE_HOME%\bin;C:\Users\DIYILIU\AppData\Roaming\npm;d:\Programs\Microsoft VS Code\bin;.]
+[INFO ] [2019-09-12 11:32:00] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2019-09-12 11:32:00] org.springframework.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 2464 ms
+[INFO ] [2019-09-12 11:32:00] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+[INFO ] [2019-09-12 11:32:00] com.zaxxer.hikari.pool.PoolBase [525] - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+[INFO ] [2019-09-12 11:32:00] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+[INFO ] [2019-09-12 11:32:00] org.hibernate.jpa.internal.util.LogHelper [31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] [2019-09-12 11:32:00] org.hibernate.Version [46] - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] [2019-09-12 11:32:00] org.hibernate.cfg.Environment [213] - HHH000206: hibernate.properties not found
+[INFO ] [2019-09-12 11:32:01] org.hibernate.annotations.common.Version [49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] [2019-09-12 11:32:01] org.hibernate.dialect.Dialect [157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] [2019-09-12 11:32:01] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 11:32:02] org.springframework.security.web.DefaultSecurityFilterChain [43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75c77add, org.springframework.security.web.context.SecurityContextPersistenceFilter@18b45500, org.springframework.security.web.header.HeaderWriterFilter@16c0be3b, org.springframework.security.web.authentication.logout.LogoutFilter@3bc6c10f, com.diyiliu.jwt.security.filter.JwtRequestFilter@45f8415b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@dbda472, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13a9cdae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d5e3f55, org.springframework.security.web.session.SessionManagementFilter@787a0fd6, org.springframework.security.web.access.ExceptionTranslationFilter@42403dc6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6aae82cc]
+[INFO ] [2019-09-12 11:32:02] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 11:32:03] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 11:32:03] org.apache.tomcat.util.net.NioSelectorPool [173] - Using a shared selector for servlet write/read
+[INFO ] [2019-09-12 11:32:03] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] [2019-09-12 11:32:03] com.diyiliu.jwt.Application [59] - Started Application in 6.142 seconds (JVM running for 8.127)
+[INFO ] [2019-09-12 11:32:55] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:32:55] org.springframework.web.servlet.DispatcherServlet [524] - Initializing Servlet 'dispatcherServlet'
+[INFO ] [2019-09-12 11:32:55] org.springframework.web.servlet.DispatcherServlet [546] - Completed initialization in 13 ms
+[INFO ] [2019-09-12 11:32:55] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [47] - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] [2019-09-12 11:32:55] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 11:32:55] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 11:41:01] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 11:41:04] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 11:41:23] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 12:26:53] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 12:27:11] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 12:28:23] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 12:28:23] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 12:28:23] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 12:28:23] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+[INFO ] [2019-09-12 12:28:23] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
+[INFO ] [2019-09-12 12:36:41] com.diyiliu.jwt.Application [50] - Starting Application on DIYILIU with PID 4428 (E:\Study\Java\spring-boot-jwt\target\classes started by DIYILIU in E:\Study\Java\spring-boot-jwt)
+[INFO ] [2019-09-12 12:36:41] com.diyiliu.jwt.Application [675] - No active profile set, falling back to default profiles: default
+[INFO ] [2019-09-12 12:36:42] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] [2019-09-12 12:36:42] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] - Finished Spring Data repository scanning in 86ms. Found 1 repository interfaces.
+[INFO ] [2019-09-12 12:36:43] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$89f6cb55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 12:36:43] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$22a4938f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 12:36:43] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 12:36:43] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@44924587' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 12:36:43] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$47793641] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 12:36:43] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] [2019-09-12 12:36:43] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [90] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2019-09-12 12:36:43] org.apache.coyote.http11.Http11NioProtocol [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 12:36:43] org.apache.catalina.core.StandardService [173] - Starting service [Tomcat]
+[INFO ] [2019-09-12 12:36:43] org.apache.catalina.core.StandardEngine [173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+[INFO ] [2019-09-12 12:36:43] org.apache.catalina.core.AprLifecycleListener [173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Develop\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app\product\11.1.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Develop\Java\jdk1.8.0_161\bin;E:\Develop\Java\jdk1.8.0_161\jre\bin;d:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Develop\Maven\apache-maven-3.5.0\bin;E:\Develop\Gradle\gradle-5.1\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files\nodejs\;D:\Program Files\TortoiseSVN\bin;C:\Users\DIYILIU\AppData\Local\Microsoft\WindowsApps;%ORACLE_HOME%\bin;C:\Users\DIYILIU\AppData\Roaming\npm;d:\Programs\Microsoft VS Code\bin;.]
+[INFO ] [2019-09-12 12:36:43] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2019-09-12 12:36:43] org.springframework.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 1994 ms
+[INFO ] [2019-09-12 12:36:44] com.zaxxer.hikari.HikariDataSource [110] - HikariPool-1 - Starting...
+[INFO ] [2019-09-12 12:36:44] com.zaxxer.hikari.pool.PoolBase [525] - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+[INFO ] [2019-09-12 12:36:44] com.zaxxer.hikari.HikariDataSource [123] - HikariPool-1 - Start completed.
+[INFO ] [2019-09-12 12:36:44] org.hibernate.jpa.internal.util.LogHelper [31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO ] [2019-09-12 12:36:44] org.hibernate.Version [46] - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] [2019-09-12 12:36:44] org.hibernate.cfg.Environment [213] - HHH000206: hibernate.properties not found
+[INFO ] [2019-09-12 12:36:44] org.hibernate.annotations.common.Version [49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] [2019-09-12 12:36:44] org.hibernate.dialect.Dialect [157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] [2019-09-12 12:36:45] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [415] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 12:36:46] org.springframework.security.web.DefaultSecurityFilterChain [43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7438c3d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@66dd04e2, org.springframework.security.web.header.HeaderWriterFilter@51468039, org.springframework.security.web.authentication.logout.LogoutFilter@df6f19b, com.diyiliu.jwt.security.filter.JwtRequestFilter@30e143ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a7aa675, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3063be68, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fba3fd6, org.springframework.security.web.session.SessionManagementFilter@23d978b, org.springframework.security.web.access.ExceptionTranslationFilter@6be422da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d5cd210]
+[INFO ] [2019-09-12 12:36:46] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 12:36:46] org.apache.coyote.http11.Http11NioProtocol [173] - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2019-09-12 12:36:46] org.apache.tomcat.util.net.NioSelectorPool [173] - Using a shared selector for servlet write/read
+[INFO ] [2019-09-12 12:36:46] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] [2019-09-12 12:36:46] com.diyiliu.jwt.Application [59] - Started Application in 5.656 seconds (JVM running for 7.4)
+[INFO ] [2019-09-12 12:36:55] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] [2019-09-12 12:36:55] org.springframework.web.servlet.DispatcherServlet [524] - Initializing Servlet 'dispatcherServlet'
+[INFO ] [2019-09-12 12:36:55] org.springframework.web.servlet.DispatcherServlet [546] - Completed initialization in 14 ms
+[INFO ] [2019-09-12 12:36:56] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [47] - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] [2019-09-12 12:36:56] jdbc.sqlonly [226] - select sysuser0_.id as id1_0_, sysuser0_.password as password2_0_, sysuser0_.username as username3_0_ 
+from t_user sysuser0_ where sysuser0_.username='admin' 
+
+[INFO ] [2019-09-12 12:37:13] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] [2019-09-12 12:37:13] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [597] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2019-09-12 12:37:13] com.zaxxer.hikari.HikariDataSource [350] - HikariPool-1 - Shutdown initiated...
+[INFO ] [2019-09-12 12:37:13] com.zaxxer.hikari.HikariDataSource [352] - HikariPool-1 - Shutdown completed.
